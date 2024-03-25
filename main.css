@@ -1,0 +1,318 @@
+body {
+  font-family: "Greycliff_Light_Regular", Segoe UI, sans-serif;
+  padding: 4rem;
+}
+
+h1 {
+  font-family: "Greycliff_Extra_Bold", Verdana, sans-serif;
+  color:#000000;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  float: right;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.centering {
+  margin-left: 20%;
+  margin-right: 20%;
+  /* justify-content: center; */
+}
+
+nav a {
+  font-family: "Greycliff_Extra_Bold", Verdana, sans-serif;
+  display:inline-block;
+  color: black;
+  font-size: 18px;
+  padding: 16px 16px;
+  padding-left: 60px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+nav a:hover, nav a:focus {
+  font-weight: 600;
+  color: #77a2cb;
+  text-decoration: none;
+}
+
+.in-text-link {
+  color: #77a2cb;
+}
+
+.element {
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+section {
+  padding-bottom: 2rem;
+}
+
+#square1 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #f0743e;
+} 
+
+#square2 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #f6c3ae;
+} 
+
+#square3 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  barder-top-width: 0.15rem;
+  bockground-color: #9ab2d4;
+} 
+
+#square4 {
+  display: inline-block;
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: #AAD59e;
+} 
+
+
+
+
+
+
+
+
+ 
+
+  /* code {
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+  } */
+
+
+
+
+  .in-text-link:hover, .in-text-link:focus{
+    color: #000;
+    text-decoration: none;
+  }
+
+  .button {
+    font-weight: 600;
+    background-color: #f0743e;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.image:hover, .image:focus {
+  opacity: .5;
+}
+
+input{
+  background-color: rgb(238, 238, 238);
+  margin: 0px;
+}
+
+input:hover, input:focus {
+  background-color: white;
+}
+
+  .button:hover{
+    font-weight: 600;
+    background-color: #f6c3ae;
+    cursor: pointer;
+  }
+    /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic /* 
+  
+
+  
+
+
+
+
+  /* 
+    COMBINED ELEMENTS -------------------
+  */
+
+  a {
+  color:#f0743e;
+  }
+
+  a:hover, a:focus {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+
+  .container {
+    background-color: #f2f2f2;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-right: 50px;
+  }
+
+  .container-product1 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #9ab2d4;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  .container-product2 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #cebcdc;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  .container-product3 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #abd59e;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  .container-product4 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #f6c3ae;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  .container-product5 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #ffdd86;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  .container-product6 {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: #F0743E;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .container button {
+    width: 100%;
+  }
+
+  /* label {
+    margin-bottom: 10px;
+    display: block;
+  } */
+
+  .btn {
+    background-color: #f0743e;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+
+
+
+
+
+
+/* code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+} */
+
+
+
+
+.btn:hover {
+  background-color: #f6c3ae;
+}
+
+span.price {
+  float: right;
+  color: grey;
+} */
