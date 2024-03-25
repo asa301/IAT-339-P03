@@ -20,6 +20,14 @@ h3 {
   font-size: 20px;
 }
 
+hr {
+  border: none;
+  height: 5px;
+  /* Set the hr color */
+  color: #77a2cb;  /* old IE */
+  background-color: #77a2cb;  /* Modern Browsers */
+}
+
 /* h4 {
   float: right;
   font-size: 18px;
