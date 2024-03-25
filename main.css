@@ -1,13 +1,14 @@
 body {
   font-family: "Greycliff_Light_Regular", Segoe UI, sans-serif;
   padding: 4rem;
+  /* background: #ebf7ff; */
+  background-image: linear-gradient(#ebf7ff, #94cbf5);
 }
 
 h1 {
   font-family: "Greycliff_Extra_Bold", Verdana, sans-serif;
   color:#000000;
   font-size: 40px;
-  text-align: center;
 
 }
 
@@ -19,18 +20,19 @@ h3 {
   font-size: 20px;
 }
 
-h4 {
+/* h4 {
   float: right;
   font-size: 18px;
-}
+} */
 
 p {
-  margin-top: 0;
+  font-size: 17px;
 }
 
 .centering {
   margin-left: 20%;
   margin-right: 20%;
+  text-align: center;
   /* justify-content: center; */
 }
 
@@ -56,6 +58,11 @@ nav a:hover, nav a:focus {
   color: #77a2cb;
 }
 
+.in-text-link:hover, .in-text-link:focus{
+  color: #000;
+  text-decoration: none;
+}
+
 .element {
   border-top-style: solid;
   border-top-color: black;
@@ -65,39 +72,35 @@ section {
   padding-bottom: 2rem;
 }
 
-#square1 {
-  display: inline-block;
+.button {
+  font-weight: 600;
+  background-color: #77a2cb;
   border-radius: 10px;
-  height: 80px;
-  width: 80px;
-  background-color: #f0743e;
-} 
-
-#square2 {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
-  border-radius: 10px;
-  height: 80px;
-  width: 80px;
-  background-color: #f6c3ae;
-} 
+  font-size: 16px;
+  margin: 4px 2px;
+}
 
-#square3 {
-  display: inline-block;
-  border-radius: 10px;
-  height: 80px;
-  width: 80px;
-  barder-top-width: 0.15rem;
-  bockground-color: #9ab2d4;
-} 
+.button:hover{
+  font-weight: 600;
+  background-color: #a6cdf2;
+  cursor: pointer;
+}
 
-#square4 {
-  display: inline-block;
+input{
+  font-family: "Greycliff_Light_Regular";
+  background-color:white;
   border-radius: 10px;
-  height: 80px;
-  width: 80px;
-  background-color: #AAD59e;
-} 
+}
 
+input:hover, input:focus {
+  background-color: white;
+}
 
 
 
@@ -116,43 +119,9 @@ section {
 
 
 
-  .in-text-link:hover, .in-text-link:focus{
-    color: #000;
-    text-decoration: none;
-  }
 
-  .button {
-    font-weight: 600;
-    background-color: #f0743e;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-  }
 
-.image:hover, .image:focus {
-  opacity: .5;
-}
-
-input{
-  background-color: rgb(238, 238, 238);
-  margin: 0px;
-}
-
-input:hover, input:focus {
-  background-color: white;
-}
-
-  .button:hover{
-    font-weight: 600;
-    background-color: #f6c3ae;
-    cursor: pointer;
-  }
+  
     /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic /* 
   
 
