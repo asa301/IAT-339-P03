@@ -106,7 +106,7 @@ section {
 
 input{
   font-family: "Greycliff_Light_Regular";
-  background-color:white;
+  /* background-color:white; */
   border-radius: 25px;
 }
 
@@ -228,11 +228,11 @@ input:hover, input:focus {
   }
 
   input[type=text] {
-    width: 100%;
+    width: 50%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    border: 1px solid #77a2cb;
+    border-radius: 20px;
   }
 
   .container button {
