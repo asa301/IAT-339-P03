@@ -1,8 +1,13 @@
 @font-face {
   font-family: Greycliff_Extra_Bold;
-  font-weight: bold;
   font-style: normal;
   src: url('../fonts/Fontspring-DEMO-greycliffcf-extrabold.otf');
+}
+
+@font-face {
+  font-family: Greycliff_Demibold;
+  font-style: normal;
+  src: url('../fonts/Fontspring-DEMO-greycliffcf-demibold.otf');
 }
 
 @font-face {
@@ -10,4 +15,16 @@
   font-weight: bold;
   font-style: normal;
   src: url('../fonts/Fontspring-DEMO-greycliffcf-regular.otf');
+}
+
+@font-face {
+  font-family: Brandon_Grotesque_Thin;
+  font-style: normal;
+  src: url('../fonts/Brandon_Grotesque_Thin.otf');
+}
+
+@font-face {
+  font-family: Brandon_Grotesque_Regular;
+  font-style: normal;
+  src: url('../fonts/Brandon_Grotesque_Regular.otf');
 }

@@ -13,6 +13,7 @@ h1 {
 }
 
 h2 {
+   font-family: "Brandon_Grotesque_Thin";
   font-size: 25px;
 }
 
@@ -22,12 +23,15 @@ h3 {
 
 hr {
   border: none;
-  height: 5px;
-  /* Set the hr color */
-  color: #77a2cb;  /* old IE */
-  background-color: #77a2cb;  /* Modern Browsers */
+  height: 2px;
+  width: 500px;
+  color: #77a2cb;  
+  background-color: #77a2cb;  
 }
 
+footer {
+  font-family: "Brandon_Grotesque_Regular";
+}
 /* h4 {
   float: right;
   font-size: 18px;
@@ -45,12 +49,12 @@ p {
 }
 
 nav a {
-  font-family: "Greycliff_Extra_Bold", Verdana, sans-serif;
+  font-family: "Greycliff_Demibold", Verdana, sans-serif;
   display:inline-block;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   padding: 16px 16px;
-  padding-left: 60px;
+  /* padding-left: 60px; */
   text-decoration: none;
   text-align: center;
 }
@@ -103,61 +107,39 @@ section {
 input{
   font-family: "Greycliff_Light_Regular";
   background-color:white;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 input:hover, input:focus {
   background-color: white;
 }
 
+.image-with-text {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+   flex-grow: 1;
+}
 
+.name-title {
+  text-decoration: none;
+}
 
-
-
-
+.intro-text {
+  margin-top: 5%;
+  flex-grow: 1; 
+}
 
  
-
-  /* code {
-    background-color: #EEE;
-    padding: 0.5rem;
-    display: block;
-  } */
-
-
-
-
-
-
-  
-    /* Ciation: https://www.w3schools.com/csS/tryit.asp?filename=trycss_buttons_basic /* 
-  
-
-  
-
-
-
-
-  /* 
-    COMBINED ELEMENTS -------------------
-  */
-
-  a {
-  color:white;
-  }
-
-  a:hover, a:focus {
-    color: #000;
-    text-decoration: none;
-  }
-
-  .row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    margin: 0 -16px;
-  }
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
 
   .col-25 {
     -ms-flex: 25%; /* IE10 */
@@ -181,20 +163,23 @@ input:hover, input:focus {
   }
 
   .container {
-    background-color: #f2f2f2;
     padding: 20px 20px 20px 20px;
-    border: 1px solid lightgrey;
+    border: solid #77a2cb;
     border-radius: 10px;
-    padding-right: 50px;
   }
 
-  .container-product1 {
+.container:hover {
+  background-color: white;
+}
+
+  .container-work {
     text-align: center;
     display: inline-block;
-    color: white;
-    background-color: #9ab2d4;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
   }
 
   .container-product2 {
@@ -254,42 +239,37 @@ input:hover, input:focus {
     width: 100%;
   }
 
-  /* label {
-    margin-bottom: 10px;
-    display: block;
-  } */
-
-  .btn {
-    background-color: #f0743e;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 100%;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 17px;
-  }
-
-
-
-
-
-
-/* code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
-} */
-
-
-
-
-.btn:hover {
-  background-color: #f6c3ae;
+.work-image {
+  border-radius:20px;
 }
 
-span.price {
-  float: right;
-  color: grey;
-} */
+.work-image:hover {
+  background-colour:black;
+  opacity: .5;
+}
+
+.container_padding{
+  padding-right: 40px;
+  padding-bottom: 20px;
+
+  order: 2; /* Default order */
+
+}
+
+.product_alignment {
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: center;
+
+}
+
+ 
