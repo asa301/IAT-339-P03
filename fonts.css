@@ -28,3 +28,21 @@
   font-style: normal;
   src: url('../fonts/Brandon_Grotesque_Regular.otf');
 }
+
+@font-face {
+  font-family: Aloevera-Bold;
+  font-style: normal;
+  src: url('../fonts/Aloevera-Bold.otf');
+}
+
+@font-face {
+  font-family: Aloevera-Medium;
+  font-style: normal;
+  src: url('../fonts/Aloevera-Medium.otf');
+}
+
+@font-face {
+  font-family: Aloevera-Light;
+  font-style: normal;
+  src: url('../fonts/Aloevera-Light.otf');
+}

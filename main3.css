@@ -1,0 +1,456 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Brandon_Grotesque_Regular", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+   background-image: linear-gradient(#ebf7ff, #94cbf5);
+  }
+
+  header {
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  header nav a {
+    font-size:20px;
+    font-family: "Aloevera-Bold", Verdana, sans-serif;
+    text-decoration: none;
+    color:black;
+    margin: 0 10px;
+  }
+
+  header nav a:hover {
+    color: #77a2cb;
+  }
+
+h1-logo {
+  font-family: "Aloevera-Bold", Verdana, sans-serif;
+  color:#000000;
+  font-size: 30px;
+}
+
+h1-logo:hover {
+  color:#77a2cb;
+}
+
+h1 {
+  font-family: "Aloevera-Bold", Verdana, sans-serif;
+  color:black;
+  font-size: 25px;
+}
+
+h2 {
+  font-family: "Aloevera-Bold", Verdana, sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.intro-section {
+  min-height: 50vh;
+  margin-left:5%;  /* center */
+}
+
+  .intro {
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 150px 20px 150px 0px; 
+  }
+
+.title-section {
+ 
+  margin: 0 auto; 
+  padding: 150px 20px 100px 0px; 
+}
+
+.title-section h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+  .intro h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    text-align: center;
+  }
+
+hr {
+  border: none;
+  height: 2px;
+  width: 500px;
+  color: black;
+  background-color: black;  
+}
+
+.image-with-text {
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+}
+
+  .intro-text {
+    font-size: 25px; 
+    text-align: left;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 40px 0px 40px ;
+  }
+
+.about-text {
+  font-size: 25px; 
+  text-align: left;
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px 40px 0px 40px ;
+}
+
+.button {
+   font-family: "Aloevera-Bold", Verdana, sans-serif;
+  background-color: #77a2cb;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover{
+  color:black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+
+/* Work Section Styles */
+#work {
+
+background-color: #FFFFFF;
+}
+
+#work .container {
+  max-width: 960px;
+  margin: auto; /* Centers container */
+  display: flex; 
+  align-items: flex-start; /* Aligns items to tstart of the cross axis */
+  padding: 4em 1em; /* Vertical padding with some horizontal padding */
+  flex-wrap: wrap; /* Allows the items to wrap on smaller screens */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+
+}
+
+#work .text-content {
+  flex: 1; /* Allows ext content to grow */
+  max-width: 480px;
+}
+
+#work h2 {
+  font-weight: 800; 
+  font-size: 2.3rem; 
+  background-color: #F7F7DE; 
+  border-radius: 10px; 
+  padding: 0.1em 0.3em; 
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  display: inline-block; /* ighlight only takes up as much width as it needs */
+  margin-bottom: 0.1em; 
+
+}
+
+#work .subheading {
+  font-size: 0.8rem; 
+  padding-left: 10px
+}
+
+#work .description {
+  font-size: 1.1rem; 
+  margin-top: 3em;
+  padding-left: 10px;
+
+
+  color: #333; 
+  max-width: 600px; 
+}
+
+#work .view-project-details {
+  font-family: 'Plus Jakarta Sans', sans-serif; 
+  background-color: #808AE9; 
+  color: #fff; 
+  padding: 0.625rem 1.25rem; 
+  border: none; 
+  border-radius: 3rem; 
+  cursor: pointer; 
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; 
+
+  display: inline-block; 
+  margin-top: 1.5em; 
+  margin-bottom: 1em;
+
+}
+
+
+
+.element {
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+.work-image {
+  border-radius:20px;
+}
+
+.work-section {
+ margin-left:5%;
+}
+
+
+.container_padding{
+  padding-right: 40px;
+  padding-bottom: 20px;
+
+  order: 2; /* Default order */
+
+}
+
+.product_alignment {
+  display: -webkit-flex; /* For support in a series of Webkit browsers */
+  display: -ms-flex; /* For support in IE 10 */
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  -webkit-justify-content: flex-start;
+  -ms-justify-content: flex-start;
+  justify-content: center;
+
+}
+
+#contact {
+  height: 35rem;
+
+  display: flex;
+  align-items: center;
+  padding-left: 7.5rem; 
+}
+
+#contact .text-content {
+  margin-left:5%;
+  width: 40%;
+  padding-right:6.25rem; 
+  padding-bottom: 8rem; 
+}
+
+#contact .text-content h2 {
+  margin-top:20%;
+  font-size: 40px; 
+  margin-bottom: 1.25rem; 
+}
+
+#contact .text-content p {
+  font-size: 25px;
+}
+
+#contact .input-content {
+  width: 40%;  
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem; 
+  padding-left:9.375rem; 
+}
+
+
+
+
+
+input{
+  padding: 0.625rem;
+  resize: vertical;
+  /* background-color:white; */
+  border-radius: 10px;
+}
+
+input:hover, input:focus {
+  background-color: white;
+}
+
+
+
+footer {
+  font-family: "Aloevera-Medium", Verdana, sans-serif;
+  text-align:center;
+  padding: 3rem;
+
+}
+
+footer a {
+  /* display:inline-block;
+  justify-content:center; */
+  font-size:20px;
+  color:black;
+  text-decoration:none;
+  padding: 10px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+
+/* Styles for the About page content */
+.about-content {
+  background-image: linear-gradient(to bottom, rgba(255, 213, 253, 0.4), rgba(226, 236, 255, 0.9));
+  margin: 0 auto; /* Centers the content */
+  padding: 50px 100px; /* Provides padding around the content */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the introductory text and paragraph */
+.about-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+
+  margin-top: 150px;
+  min-height: 120vh; 
+
+}
+
+.intro-paragraph {
+  font-size: 1rem;
+  margin: 0; 
+  flex: 1; 
+
+  padding: 50px 50px; 
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+/* Additional styles for the vertical line n intro layout */
+.intro-text {
+  display: flex; 
+  flex: 0 0 500px; /* fixed width for sticky column */
+  align-items: center; /* Aligns items vertically incenter */
+
+  position: sticky;
+  top: 100px;
+  z-index: 10; /*  keep above other content */
+
+}
+
+.intro-text h2 {
+  padding: 50px 50px;
+  font-weight: 500;
+  font-size: 2em; 
+  margin: 0;
+  text-align: right;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 200px; 
+  background-color: #000; 
+  margin: 0 20px; 
+}
+
+
+.right-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+}
+
+
+
+
+
+
+/* Apply a gradient background to the entire workprocess page */
+.workprocess-page {
+  background-image: linear-gradient(to bottom, rgba(226, 236, 255, 0.9), rgba(255, 213, 253, 0.3));
+  padding-top: 65px; /*  push content down from the header */
+}
+
+/* Add padding around the sections to prevent text from running the full width */
+.workprocess-page section {
+  padding: 20px; 
+  padding-left: 60px;
+  background-color: rgba(255, 255, 255, 0.9); /* add slight white overlay to each section */
+  margin-bottom: 40px; 
+  border-radius: 10px; 
+}
+
+/* project overview section styling */
+.project-overview {
+  background-image: linear-gradient(to bottom, rgba(226, 236, 255, 0.9), rgba(255, 213, 253, 0.3));
+
+  display: flex; 
+  justify-content: center; /* Center the items horizontally */
+  align-items: center;
+}
+
+.overview-details,
+.overview-description {
+  flex: 1; /* Each column takes equal space */
+  max-width: 45%; /* Limit the maxwidth of each column */
+
+}
+
+
+
+
+/* Styling for each section with image */
+.research-section, .reframing-section, .final-design-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.research-section p, .reframing-section p, .final-design-section p {
+  font-size: 0.9rem; 
+  line-height: 1.4; 
+}
+
+.section-content, .section-image {
+  flex: 1;
+  max-width: 45%; 
+}
+
+.section-image img {
+  height: 350px; 
+  width: auto; 
+  object-fit: cover; 
+  border-radius: 10px;
+}
+
+
