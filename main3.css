@@ -145,7 +145,6 @@ hr {
 
 
 
-/* Work Section Styles */
 #work {
 
 background-color: #FFFFFF;
@@ -153,11 +152,11 @@ background-color: #FFFFFF;
 
 #work .container {
   max-width: 960px;
-  margin: auto; /* Centers container */
+  margin: auto;
   display: flex; 
-  align-items: flex-start; /* Aligns items to tstart of the cross axis */
-  padding: 4em 1em; /* Vertical padding with some horizontal padding */
-  flex-wrap: wrap; /* Allows the items to wrap on smaller screens */
+  align-items: flex-start;
+  padding: 4em 1em; 
+  flex-wrap: wrap; 
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 20px;
@@ -175,8 +174,8 @@ background-color: #FFFFFF;
   background-color: #F7F7DE; 
   border-radius: 10px; 
   padding: 0.1em 0.3em; 
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-  display: inline-block; /* ighlight only takes up as much width as it needs */
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1); 
+  display: inline-block; 
   margin-bottom: 0.1em; 
 
 }
@@ -196,22 +195,6 @@ background-color: #FFFFFF;
   max-width: 600px; 
 }
 
-#work .view-project-details {
-  font-family: 'Plus Jakarta Sans', sans-serif; 
-  background-color: #808AE9; 
-  color: #fff; 
-  padding: 0.625rem 1.25rem; 
-  border: none; 
-  border-radius: 3rem; 
-  cursor: pointer; 
-  text-decoration: none;
-  transition: background-color 0.3s, color 0.3s; 
-
-  display: inline-block; 
-  margin-top: 1.5em; 
-  margin-bottom: 1em;
-
-}
 
 
 
@@ -325,26 +308,6 @@ footer a:hover {
 
 
 
-/* Styles for the About page content */
-.about-content {
-  background-image: linear-gradient(to bottom, rgba(255, 213, 253, 0.4), rgba(226, 236, 255, 0.9));
-  margin: 0 auto; /* Centers the content */
-  padding: 50px 100px; /* Provides padding around the content */
-  display: flex;
-  flex-direction: column;
-}
-
-/* Styles for the introductory text and paragraph */
-.about-intro {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start; 
-
-  margin-top: 150px;
-  min-height: 120vh; 
-
-}
-
 .intro-paragraph {
   font-size: 1rem;
   margin: 0; 
@@ -355,15 +318,15 @@ footer a:hover {
   line-height: 1.6;
 }
 
-/* Additional styles for the vertical line n intro layout */
+
 .intro-text {
   display: flex; 
-  flex: 0 0 500px; /* fixed width for sticky column */
-  align-items: center; /* Aligns items vertically incenter */
+  flex: 0 0 500px;
+  align-items: center;
 
   position: sticky;
   top: 100px;
-  z-index: 10; /*  keep above other content */
+  z-index: 10; 
 
 }
 
@@ -386,71 +349,9 @@ footer a:hover {
 .right-content {
   flex-grow: 1;
   display: flex;
-  flex-direction: column; /* Stack vertically */
+  flex-direction: column; 
 }
 
 
-
-
-
-
-/* Apply a gradient background to the entire workprocess page */
-.workprocess-page {
-  background-image: linear-gradient(to bottom, rgba(226, 236, 255, 0.9), rgba(255, 213, 253, 0.3));
-  padding-top: 65px; /*  push content down from the header */
-}
-
-/* Add padding around the sections to prevent text from running the full width */
-.workprocess-page section {
-  padding: 20px; 
-  padding-left: 60px;
-  background-color: rgba(255, 255, 255, 0.9); /* add slight white overlay to each section */
-  margin-bottom: 40px; 
-  border-radius: 10px; 
-}
-
-/* project overview section styling */
-.project-overview {
-  background-image: linear-gradient(to bottom, rgba(226, 236, 255, 0.9), rgba(255, 213, 253, 0.3));
-
-  display: flex; 
-  justify-content: center; /* Center the items horizontally */
-  align-items: center;
-}
-
-.overview-details,
-.overview-description {
-  flex: 1; /* Each column takes equal space */
-  max-width: 45%; /* Limit the maxwidth of each column */
-
-}
-
-
-
-
-/* Styling for each section with image */
-.research-section, .reframing-section, .final-design-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.research-section p, .reframing-section p, .final-design-section p {
-  font-size: 0.9rem; 
-  line-height: 1.4; 
-}
-
-.section-content, .section-image {
-  flex: 1;
-  max-width: 45%; 
-}
-
-.section-image img {
-  height: 350px; 
-  width: auto; 
-  object-fit: cover; 
-  border-radius: 10px;
-}
 
 
